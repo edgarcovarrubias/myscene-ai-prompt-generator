@@ -1,10 +1,6 @@
 import React from 'react';
-import PromptGenerator from './PromptGenerator.jsx';
+import PromptGenerator from './PromptGenerator';
 
 export default function App() {
-  return (
-    <div className="min-h-screen bg-white text-black">
-      <PromptGenerator />
-    </div>
-  );
+  return <PromptGenerator />;
 }
